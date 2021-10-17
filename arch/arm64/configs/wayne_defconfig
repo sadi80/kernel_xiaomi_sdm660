@@ -1,8 +1,8 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.19.209 Kernel Configuration
+# Linux/arm64 4.19.212 Kernel Configuration
 #
-CONFIG_LOCALVERSION="-Aeon-R-v1.3"
+CONFIG_LOCALVERSION="-Aeon-R-v1.6"
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_IRQ_WORK=y
 CONFIG_BUILDTIME_EXTABLE_SORT=y
