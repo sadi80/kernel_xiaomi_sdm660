@@ -1000,6 +1000,9 @@ config HAVE_ARCH_PREL32_RELOCATIONS
 	  architectures, and don't require runtime relocation on relocatable
 	  kernels.
 
+config ARCH_USE_MEMREMAP_PROT
+	bool
+
 config PANIC_ON_REFCOUNT_ERROR
 	bool "Kernel panic on refcount error detection"
 	depends on REFCOUNT_FULL
@@ -1022,9 +1025,6 @@ config RELR
 	  format. Requires a compatible linker (LLD supports this feature), as
 	  well as compatible NM and OBJCOPY utilities (llvm-nm and llvm-objcopy
 	  are compatible).
-
-config ARCH_USE_MEMREMAP_PROT
-	bool
 
 source "kernel/gcov/Kconfig"
 
